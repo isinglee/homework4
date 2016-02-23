@@ -42,6 +42,7 @@ b {
 .countries {
     clear: both;
 }
+.country > a,
 .country > a:visited {
     color: #5aaec2;
 }
@@ -50,6 +51,7 @@ b {
     padding: 5px;
     font-size: 10px;
     text-align: center;
+    min-width: 50px;
 }
 .flag {
     background-image: url(../img/spritesheet.png);
