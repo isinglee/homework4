@@ -113,7 +113,7 @@ ul.menu {
 ul.menu > li {
     float: left;
     position: relative;
-    width: 140px;
+    padding: 0 25px;
     text-align: left;
 }
 ul.menu > li > a {
@@ -133,7 +133,7 @@ ul.submenu {
     position: absolute;
     width: 120px;
     top: 30px;
-    left: 0;
+    left: 25px;
     box-shadow: 0 2px 6px #000;
     background-color: #303030;
 }
